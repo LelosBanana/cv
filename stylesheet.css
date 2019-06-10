@@ -1,0 +1,21 @@
+body {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: white;
+	font-size: 1.1em;
+	background-image: url('wagen.jpg');
+	background-size: cover;
+}
+
+#main-container {
+	padding-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
